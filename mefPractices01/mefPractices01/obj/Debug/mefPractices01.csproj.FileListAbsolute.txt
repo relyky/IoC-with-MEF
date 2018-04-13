@@ -1,1 +1,0 @@
-D:\GitHub\IoC-with-MEF\mefPractices01\mefPractices01\bin\Debug\mefPractices01.exe.config
