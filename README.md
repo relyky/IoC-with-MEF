@@ -14,6 +14,12 @@ MEF的說明寫得很多很多很多……。總之，就應用面來說，MEF�
 2. 部份取代反射(reflection)，傳統上要動態連結DLL時會使用 reflection 技術來處理，程式碼的可讀性常因而下降。有了MEF可以簡化的一些，且可讀性更高。
 
 ## 設計圖
+
+該商業模組MyBizModule有二個外部元件負責執行演算法的部份，用MyBizPartA、MyBizPartB模擬。  
+也使用二種方法進行商業模組與演算法單元的結合。   
+方法一：間接再透過 Abstract Factor Pattern 來建構MyBizPartA物件。   
+方法二：直接「Import」來建構MyBizPartB。   
+
 ![設計簡單](IoC%20with%20MEF.png)
 
 ## 總案總管截圖
