@@ -22,5 +22,5 @@ MEF的說明寫得很多很多很多……。總之，就應用面來說，MEF�
 
 ![設計簡單](IoC%20with%20MEF.png)
 
-## 總案總管截圖
+## 專案總管截圖
 ![總案總管截圖](project%20explorer%20slice.png)
